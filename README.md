@@ -1,3 +1,7 @@
+
+# Project for managing food in your pantry / fridge / freezer etc.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
