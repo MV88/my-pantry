@@ -1,0 +1,26 @@
+[{
+    "brand": null,
+    "category": "lacticine",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Protein", "Fat"],
+    "name": "Yogurt",
+    "notes": null,
+    "photo": null,
+    "quantity": null,
+    "shop": null,
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": null,
+        "inFridge": null,
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 3,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}]
