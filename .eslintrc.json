@@ -1,0 +1,7 @@
+{
+    "extends": "react-app",
+    "rules": {
+        "comma-dangle": ["error", "always-multiline"],
+        "no-mixed-spaces-and-tabs": "error"
+    }
+}
