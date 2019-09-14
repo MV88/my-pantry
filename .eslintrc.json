@@ -2,6 +2,7 @@
     "extends": "react-app",
     "rules": {
         "comma-dangle": ["error", "always-multiline"],
-        "no-mixed-spaces-and-tabs": "error"
+        "no-mixed-spaces-and-tabs": "error",
+        "indent": ["error", "tab"]
     }
 }
