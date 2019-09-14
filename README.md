@@ -3,7 +3,7 @@
 
 Here is the initial demo
 
-[img](src/assets/dashboard.png)
+[img](/src/assets/dashboard.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
