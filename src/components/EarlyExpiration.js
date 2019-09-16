@@ -1,14 +1,15 @@
-import Badge from '@material-ui/core/Badge';
-import CreateIcon from '@material-ui/icons/Create';
+import React from 'react';
+
+import { Avatar } from '@material-ui/core';
+import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
-import MailIcon from '@material-ui/icons/Mail';
 import Paper from '@material-ui/core/Paper';
-import React from 'react';
-import Toolbar from '@material-ui/core/Toolbar';
 import Tooltip from '@material-ui/core/Tooltip';
-import imageYogurt from '../assets/yogurta.jpg';
 import { makeStyles } from '@material-ui/core/styles';
+import CreateIcon from '@material-ui/icons/Create';
+
+import { calculateExpiration } from '../utils/utils';
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -16,7 +17,7 @@ const useStyles = makeStyles(theme => ({
 	},
 	paper: {
 		alignItems: "center",
-		width: 150,
+		width: 200,
 	},
 	toolbar: {
 		display: 'block',
@@ -29,33 +30,40 @@ const useStyles = makeStyles(theme => ({
 		objectFit: "cover",
 		width: 100,
 		height: 100,
+		borderRadius: "50%",
 	},
 }));
 
-export default function EarlyExpiration() {
+
+export default function EarlyExpiration({foods, title}) {
 	const [spacing] = React.useState(2);
 	const classes = useStyles();
-  
+
+
+
 	return (
 		<Grid container className={classes.root} spacing={2}>
 			<Grid item xs={12}>
+				
 				<Grid container justify="center" spacing={spacing}>
-					{[0, 1, 2].map(value => (
-						<Grid key={value} item>
+					<Grid item xs={12}>
+						{title}
+					</Grid>
+					{foods.map(({pictureUrl, dates, name, daysUntilExpiration}, index) => (
+						<Grid key={index} item>
 							<Paper className={classes.paper} >
-								<Toolbar className={classes.toolbar} >
+								<Chip
+									avatar={<Avatar>{calculateExpiration({dates, daysUntilExpiration})}</Avatar>}
+									label={name}
+									className={classes.chip}
+									color="default"
+								/>
+								<Tooltip title="Edit" placement="top">
 									<IconButton aria-label="show 4 new mails" color="inherit">
-										<Badge badgeContent={1} color="secondary">
-											<MailIcon />
-										</Badge>
+										<CreateIcon />
 									</IconButton>
-									<Tooltip title="Edit" placement="top">
-										<IconButton aria-label="show 4 new mails" color="inherit">
-											<CreateIcon />
-										</IconButton>
-									</Tooltip>
-									<img className={classes.img} src={imageYogurt} alt="yogurt"/>
-								</Toolbar>
+								</Tooltip>
+								<img className={classes.img} src={pictureUrl} alt="yogurt"/>
 							</Paper>
 						</Grid>
 					))}

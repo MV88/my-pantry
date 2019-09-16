@@ -7,19 +7,244 @@
     "macro": ["Protein", "Fat"],
     "name": "Yogurt",
     "notes": null,
-    "photo": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     "quantity": null,
     "shop": null,
     "uom": null,
     "dates": {
-        "opened": null,
-        "bought": null,
+        "opened": "2019-09-15",
+        "bought": "2019-09-13",
         "inFridge": null,
         "inFreezer": null,
         "expiration": null
     }, 
     "daysUntilExpiration": {
         "inFridge": 3,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "fruit",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "White Melon",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1513435160994-a731e7e5cb52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": null,
+    "uom": null,
+    "dates": {
+        "opened": "2019-09-15",
+        "bought": "2019-09-13",
+        "inFridge": "2019-09-13",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 3,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "vegetable",
+    "cost": 1,
+    "description": null,
+    "euroUom": null,
+    "macro": null,
+    "name": "Valeriana",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1448935852404-7a38bb46f5b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 2,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "fruit",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Pear",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1517428956741-0e738679fc79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 7,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "fruit",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Banana",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1560522361-23b37e4ad4a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 6,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "meat",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Salmon",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1499125562588-29fb8a56b5d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 2,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "meat",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Chicken",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1456404823214-a69ef7a1fae5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 2,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "fruit",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Peach",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1565769583321-29e69b493031?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 6,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "fruit",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Kiwi",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1521997888043-aa9c827744f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 6,
+        "inFreezer": null,
+        "afterOpening": null
+    }
+}, {
+    "brand": null,
+    "category": "fruit",
+    "cost": null,
+    "description": null,
+    "euroUom": null,
+    "macro": ["Carb"],
+    "name": "Uva",
+    "notes": null,
+    "pictureUrl": "https://images.unsplash.com/photo-1515779122185-2390ccdf060b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "quantity": null,
+    "shop": "Carrefour",
+    "uom": null,
+    "dates": {
+        "opened": null,
+        "bought": "2019-09-15",
+        "inFridge": "2019-09-15",
+        "inFreezer": null,
+        "expiration": null
+    }, 
+    "daysUntilExpiration": {
+        "inFridge": 6,
         "inFreezer": null,
         "afterOpening": null
     }
